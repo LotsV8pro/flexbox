@@ -1,0 +1,62 @@
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif; /* Cambiado la fuente a Arial */
+    background-color: #f9f9f9;
+    color: #000; /* Cambiado color de texto a negro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch; /* Iguala la altura de las columnas */
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.column {
+    flex: 1;
+    margin: 0 20px;
+    text-align: center; /* Centra horizontalmente */
+    display: flex; /* Añadido para ajustar la altura de los elementos internos */
+    flex-direction: column; /* Añadido para ajustar la altura de los elementos internos */
+}
+
+.column h2 {
+    margin-bottom: 20px; /* Añadido espacio entre título y elementos */
+}
+
+.flex-item {
+    margin-bottom: 20px; /* Añadido espacio entre elementos */
+    padding: 15px; /* Incrementado el padding para un aspecto más espaciado */
+    border: 1px solid #f0a4a4; /* Cambiado el color del borde a un rojo pastel */
+    background-color: #fff;
+    border-radius: 5px; /* Añadido borde redondeado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Añadida sombra para resaltar los elementos */
+    flex: 1; /* Iguala la altura de los elementos */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #343a40; /* Cambiado color de fondo del footer */
+    color: #fff; /* Texto en el footer en blanco */
+    padding: 20px 0; /* Añadido espacio alrededor del texto en el footer */
+}
+
+/* Estilos para los enlaces del navbar */
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff; /* Cambiado color de texto de los enlaces del navbar */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffc107; /* Cambiado color de texto de los enlaces del navbar al pasar el ratón */
+}
+.flag_es {
+    height: 35px;
+    width: auto;
+}
+.flag_en {
+    height: 35px;
+    width: auto;
+}

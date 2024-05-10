@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Styling</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Albert Romero Lorente</a>
+        <div class="navbar-collapse collapse justify-content-end">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="flag_en" src="../../img/england_flag.jpg">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../../index.html">Español</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <!-- Froggy Column -->
+        <div class="column">
+            <h2>Froggy</h2>
+            <!-- Froggy Levels -->
+            <div class="flex-item">
+                <p>justify-content: center;</p>
+                <p>Centers the items along the container on the main axis.</p>
+            </div>
+            <div class="flex-item">
+                <p>justify-content: flex-end;</p>
+                <p>Moves the items towards the end of the container on the main axis.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-items: center;</p>
+                <p>Centers the items along the container on the cross axis.</p>
+            </div>
+            <div class="flex-item">
+                <p>justify-content: space-between;</p>
+                <p>Distributes the items evenly along the main axis, leaving equal space between them.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-items: flex-end;</p>
+                <p>Stacks the items vertically instead of horizontally.</p>
+            </div>
+            <div class="flex-item">
+                <p>justify-content: center;</p>
+                <p>align-items: center;</p>
+                <p>Centers the items both on the main and cross axis.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-direction: row-reverse;</p>
+                <p>Reorders the items horizontally in the flex container.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-direction: column;</p>
+                <p>Stacks the items vertically instead of horizontally.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-direction: column-reverse;</p>
+                <p>Stacks the items vertically in reverse instead of horizontally.</p>
+            </div>
+            <div class="flex-item">
+                <p>order: 1;</p>
+                <p>Sets the order of the item within the flex container.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-self: flex-start;</p>
+                <p>Applies specific alignment to this item within the flex container, aligning it to the start of the cross axis.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-direction: column-reverse;</p>
+                <p>Stacks the items vertically in reverse instead of horizontally.</p>
+            </div>
+            <div class="flex-item">
+                <p>order: 3;</p>
+                <p>Sets the order of the item within the flex container.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-self: flex-end;</p>
+                <p>Applies specific alignment to this item within the flex container, aligning it to the end of the cross axis.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-direction: row-reverse;</p>
+                <p>Reorders the items horizontally in reverse within the flex container.</p>
+            </div>
+        </div>
+        <!-- Adventure Column -->
+        <div class="column">
+            <h2>Adventure</h2>
+            <!-- Adventure Levels -->
+            <div class="flex-item">
+                <p>justify-content: flex-end;</p>
+                <p>Moves the items towards the end of the container on the main axis.</p>
+            </div>
+            <div class="flex-item">
+                <p>justify-content: flex-end;</p>
+                <p>Moves the items towards the end of the container on the main axis.</p>
+            </div>
+            <div class="flex-item">
+                <p>justify-content: space-between;</p>
+                <p>Distributes the items evenly along the main axis, leaving equal space between them.</p>
+            </div>
+            <div class="flex-item">
+                <p>justify-content: space-around;</p>
+                <p>Distributes the items evenly along the main axis, leaving equal space around each item.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-items: center;</p>
+                <p>Centers the items along the container on the cross axis.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-items: flex-end;</p>
+                <p>Stacks the items vertically instead of horizontally.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-direction: column;</p>
+                <p>Stacks the items vertically instead of horizontally.</p>
+            </div>
+            <div class="flex-item">
+                <p>order: 2;</p>
+                <p>Sets the order of the item within the flex container.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-self: center;</p>
+                <p>Applies specific alignment to this item within the flex container, centering it on the cross axis.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-self: flex-end;</p>
+                <p>Applies specific alignment to this item within the flex container, aligning it to the end of the cross axis.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-direction: column-reverse;</p>
+                <p>Stacks the items vertically in reverse instead of horizontally.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-wrap: wrap;</p>
+                <p>flex-flow: wrap;</p>
+                <p>Allows items to wrap onto a new line when there isn't enough space.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-content: center;</p>
+                <p>Aligns multiple lines of items along the cross axis.</p>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-light text-center py-4">
+        <p>&copy; 2024 Albert Romero Lorente. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

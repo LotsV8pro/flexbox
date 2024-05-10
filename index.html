@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Styling</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Albert Romero Lorente</a>
+        <div class="navbar-collapse collapse justify-content-end">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="flag_es" src="./img/spain_flag.jpeg">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./view/en/index_en.html">Ingles</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <!-- Columna Froggy -->
+        <div class="column">
+            <h2>Froggy</h2>
+            <!-- Niveles Froggy -->
+            <div class="flex-item">
+                <p>justify-content: center;</p>
+                <p>Centra los elementos a lo largo del contenedor en el eje principal.</p>
+            </div>
+            <div class="flex-item">
+                <p>justify-content: flex-end;</p>
+                <p>Desplaza los elementos hacia el final del contenedor en el eje principal.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-items: center;</p>
+                <p>Centra los elementos a lo largo del contenedor en el eje secundario.</p>
+            </div>
+            <div class="flex-item">
+                <p>justify-content: space-between;</p>
+                <p>Distribuye los elementos uniformemente a lo largo del eje principal, dejando espacio igual entre ellos.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-items: flex-end;</p>
+                <p>Apila los elementos verticalmente en lugar de horizontalmente.</p>
+            </div>
+            <div class="flex-item">
+                <p>justify-content: center;</p>
+                <p>align-items: center;</p>
+                <p>Centra los elementos tanto en el eje principal como en el eje secundario.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-direction: row-reverse;</p>
+                <p>Reordena los elementos horizontalmente en el contenedor flex.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-direction: column;</p>
+                <p>Apila los elementos verticalmente en lugar de horizontalmente.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-direction: column-reverse;</p>
+                <p>Apila los elementos verticalmente en reversa en lugar de horizontalmente.</p>
+            </div>
+            <div class="flex-item">
+                <p>order: 1;</p>
+                <p>Establece el orden del elemento dentro del contenedor flex.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-self: flex-start;</p>
+                <p>Aplica alineación específica a este elemento dentro del contenedor flex, alineándolo al principio del eje secundario.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-direction: column-reverse;</p>
+                <p>Apila los elementos verticalmente en reversa en lugar de horizontalmente.</p>
+            </div>
+            <div class="flex-item">
+                <p>order: 3;</p>
+                <p>Establece el orden del elemento dentro del contenedor flex.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-self: flex-end;</p>
+                <p>Aplica alineación específica a este elemento dentro del contenedor flex, alineándolo al final del eje secundario.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-direction: row-reverse;</p>
+                <p>Reordena los elementos horizontalmente en reversa en el contenedor flex.</p>
+            </div>
+        </div>
+        <!-- Columna Adventure -->
+        <div class="column">
+            <h2>Adventure</h2>
+            <!-- Niveles Adventure -->
+            <div class="flex-item">
+                <p>justify-content: flex-end;</p>
+                <p>Desplaza los elementos hacia el final del contenedor en el eje principal.</p>
+            </div>
+            <div class="flex-item">
+                <p>justify-content: flex-end;</p>
+                <p>Desplaza los elementos hacia el final del contenedor en el eje principal.</p>
+            </div>
+            <div class="flex-item">
+                <p>justify-content: space-between;</p>
+                <p>Distribuye los elementos uniformemente a lo largo del eje principal, dejando espacio igual entre ellos.</p>
+            </div>
+            <div class="flex-item">
+                <p>justify-content: space-around;</p>
+                <p>Distribuye los elementos uniformemente a lo largo del eje principal, dejando espacio igual alrededor de cada elemento.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-items: center;</p>
+                <p>Centra los elementos a lo largo del contenedor en el eje secundario.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-items: flex-end;</p>
+                <p>Apila los elementos verticalmente en lugar de horizontalmente.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-direction: column;</p>
+                <p>Apila los elementos verticalmente en lugar de horizontalmente.</p>
+            </div>
+            <div class="flex-item">
+                <p>order: 2;</p>
+                <p>Establece el orden del elemento dentro del contenedor flex.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-self: center;</p>
+                <p>Aplica alineación específica a este elemento dentro del contenedor flex, centrándolo en el eje secundario.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-self: flex-end;</p>
+                <p>Aplica alineación específica a este elemento dentro del contenedor flex, alineándolo al final del eje secundario.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-direction: column-reverse;</p>
+                <p>Apila los elementos verticalmente en reversa en lugar de horizontalmente.</p>
+            </div>
+            <div class="flex-item">
+                <p>flex-wrap: wrap;</p>
+                <p>flex-flow: wrap;</p>
+                <p>Permite que los elementos se envuelvan a una nueva línea cuando no hay suficiente espacio.</p>
+            </div>
+            <div class="flex-item">
+                <p>align-content: center;</p>
+                <p>Alinea varias líneas de elementos a lo largo del eje secundario.</p>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-light text-center py-4">
+        <p>&copy; 2024 Albert Romero Lorente. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
